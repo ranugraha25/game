@@ -4,7 +4,7 @@ function init() {
 	setCanvas ();
 	setMedia ();
 
-	game = new Game ();
+	game = new Game();
 	game.run();
 
 	}
@@ -28,4 +28,10 @@ function init() {
 
 		media.bg = new Image();
 		media.bg.src = 'source/PNG/background.png';
+
+		media.asteroid = new Image();
+		media.asteroid.src = 'source/PNG/asteroid.png';
+
+		media.asteroid = new Image();
+		media.asteroid.src = 'source/PNG/asteroid.png';
 	}
